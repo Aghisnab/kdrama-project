@@ -1,4 +1,8 @@
-# 🎬 KDrama Hub
+<p align="center">
+  <img src="public/images/Logo-2.png" alt="You(D)rama Logo" width="120"/>
+</p>
+
+# You(D)rama
 
 A web application for K-Drama enthusiasts to discover, track, and get personalized drama recommendations based on mood and watch history.
 
