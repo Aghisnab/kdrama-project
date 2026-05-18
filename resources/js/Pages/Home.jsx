@@ -58,11 +58,9 @@ export default function Home({ dramas = [] }) {
 
     const dramaRef = useRef(null);
 
-    // Tampilkan moodDramas kalau mood aktif, dramas populer kalau tidak
     const displayedDramas = activeMood ? moodDramas : dramas;
 
     const handleMoodClick = async (label) => {
-        // Toggle off
         if (activeMood === label) {
             setActiveMood(null);
             setMoodDramas([]);
