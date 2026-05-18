@@ -60,7 +60,7 @@ export default function KdramaShow({ drama, isLiked, watchlist }) {
         <div className="min-h-screen bg-[#0a0a0f] text-white">
             <nav className="flex justify-between items-center px-6 py-4 border-b border-white/[0.07] sticky top-0 bg-[#0a0a0f] z-10">
                 <button onClick={() => history.back()} className="text-gray-500 hover:text-white text-sm transition">← Kembali</button>
-                <span className="text-purple-400 font-medium tracking-widest text-sm">DRAKORLIST</span>
+                <span className="text-lg font-extrabold tracking-widest bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent drop-shadow-lg">You(D)rama</span>
                 <div className="w-16" />
             </nav>
 

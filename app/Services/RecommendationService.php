@@ -16,7 +16,6 @@ class RecommendationService
         'Medis', 'Hukum', 'Fiksi Ilmiah', 'Musik', 'Olahraga', 'BL', 'LGBTQ+',
         'Coming-of-age', 'Office', 'Psychological', 'Time Travel', 'Melodrama',
         'Political', 'Balas Dendam', 'Adaptasi', 'Friendship', 'Teknologi', 'Petualangan',
-        // Tambahan
         'Zombie', 'Reinkarnasi', 'Spionase', 'Culinary', 'Detektif',
         'School Life', 'Military', 'Fantasy Historis', 'Chaebol', 'Webtoon',
     ];
@@ -25,7 +24,7 @@ class RecommendationService
 
     public function __construct()
     {
-        $this->moodGenreWeights = config('moods', []); // fallback [] biar tidak null
+        $this->moodGenreWeights = config('moods', []); 
     }
 
     public function getMoods(): array
