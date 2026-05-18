@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { router } from "@inertiajs/react";
 import UserLayout from "@/Layouts/UserLayout";
-import "/resources/css/WatchlistUser.css"; // Import the CSS file
+import "/resources/css/WatchlistUser.css"; 
 
 const STATUS_CONFIG = {
     plan_to_watch: {
