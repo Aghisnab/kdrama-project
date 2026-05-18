@@ -33,14 +33,14 @@ A web application for K-Drama enthusiasts to discover, track, and get personaliz
 ### For Users
 - 🔍 **Browse & Search** — Explore a curated list of K-Dramas with search and filter by genre
 - ❤️ **Likes & Watchlist** — Save dramas to watchlist and track watch progress
-- 🎭 **Mood-Based Recommendation** — Get drama recommendations based on your current mood and genre preference
-- 🤖 **Personalized Recommendation** — AI-powered suggestions based on your watch history
+- 🎭 **Mood-Based Recommendation** — Get drama recommendations based on your current mood preference by genre and your watch history
 - 👤 **User Dashboard** — View your activity, watchlist, and liked dramas in one place
 
 ### For Admin
 - 📊 **Admin Dashboard** — Monitor user activity, popular dramas, and platform statistics
 - 🎬 **Drama Management** — Add, edit, and delete drama entries with poster images
 - 🧑‍🎤 **Actor Management** — Manage actor profiles and link them to dramas
+- ❤️ **Drama Favorite** — Track users' favorite dramas based on the most liked and most watched 
 - 📋 **Activity Log** — Track all user interactions across the platform
 
 ---
